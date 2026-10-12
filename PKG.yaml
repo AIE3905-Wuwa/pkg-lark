@@ -12,3 +12,9 @@ uninstall:
   credentials: [~/.lark-cli/]
   bridges: [profile#domain-cognition]
   processes: ["lark-cli event consume 长驻订阅（语义收尾时停机）"]
+disclosure: "Accesses Feishu/Lark clouds via lark-cli (external binary, web login); processes messages, docs, calendars and org data (privacy: high); tokens/sessions only on this machine (~/.lark-cli); IM and doc data never enters any git repository."
+menu:
+  lark: domain root — profiles, pointer pages, archive shape
+  lark-docs: cloud docs adapter — pointer pages per doc token
+  lark-im: interpersonal IM adapter — chats and messages archives
+  lark-calendar: calendar adapter — rides core calendar/cron bridges

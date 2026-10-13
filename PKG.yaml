@@ -1,6 +1,6 @@
 schema_version: 1
 id: lark
-version: 0.1
+version: 0.2
 compat: ">= 0.2"
 members: [lark, lark-docs, lark-im, lark-calendar]
 connectors:
